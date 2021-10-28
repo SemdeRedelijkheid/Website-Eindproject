@@ -90,3 +90,7 @@ body {
     display: block;
   }
 }
+
+#video{
+  height: 1%;
+}
