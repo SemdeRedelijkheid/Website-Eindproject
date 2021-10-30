@@ -103,7 +103,7 @@ body {
 }
 
 .ghost {
-  width: 5.5em;
+  width: 9em;
   float: right;
 }
 
@@ -112,6 +112,10 @@ h3 {
 }
 p {
   font-size: 1.2em;
+}
+footer {
+  margin-top: 10px;
+  font-size: 1.4em;
 }
 
 @media screen and (max-width: 1179px) {
