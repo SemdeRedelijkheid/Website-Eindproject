@@ -76,10 +76,21 @@ body {
 
 .articles {
   display: flex;
-  background: rgb(0, 255, 0);
 }
 
-.section1 {
+.articles #articleone {
+  background: rgb(0, 255, 0);
+  display: inline-block;
+}
+
+.articles #articletwo {
+  background: rgb(4, 0, 255);
+  display: inline-block;
+}
+
+.articles #articlethree {
+  background: rgb(0, 255, 234);
+  display: inline-block;
 }
 
 @media screen and (max-width: 1179px) {
