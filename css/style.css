@@ -1,6 +1,13 @@
+header {
+  width: 100vw;
+}
 img {
   float: left;
   margin-right: 20px;
+  width: 7%;
+}
+.video {
+  width: 100%;
 }
 
 h1 {
@@ -14,20 +21,20 @@ h2 {
   margin: 0;
 }
 
-#banner {
+.banner {
   background: rgb(129, 129, 129);
-  padding: 1em;
+  height: 15vh;
 }
 
-.navigationpc {
+.navigation {
   background: rgb(187, 187, 187);
   position: fixed;
 }
-.navigationpc li {
+.navigation li {
   font-size: 150%;
   float: left;
 }
-.navigationpc li a {
+.navigation li a {
   padding: 20px 30px;
 }
 
@@ -36,12 +43,13 @@ nav {
 }
 
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (min-width: 481px) {
-  .navigationpc {
+@media screen and (max-width: 1179px) {
+  .navigation {
     display: block;
   }
   img {
