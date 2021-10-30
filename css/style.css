@@ -55,7 +55,7 @@ body {
   margin-bottom: 5px;
   position: relative;
 
-  background: #000000;
+  background: #ff0000;
   border-radius: 3px;
 
   z-index: 1;
@@ -88,7 +88,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  nav {
+  .navigationmobile {
     display: block;
   }
 }
