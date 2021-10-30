@@ -1,11 +1,9 @@
 img {
-  width: 9%;
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 h1 {
-  font-size: 350%;
   margin: 0;
   margin-top: 10px;
   color: rgb(255, 255, 255);
@@ -16,11 +14,6 @@ h2 {
   margin: 0;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 70% 30%;
-}
-
 #banner {
   background: rgb(129, 129, 129);
   padding: 1em;
@@ -28,13 +21,14 @@ h2 {
 
 .navigationpc {
   background: rgb(187, 187, 187);
-  padding: 1em;
+  position: fixed;
 }
-
-@media screen and (min-width: 481px) {
-  .navigationpc {
-    display: block;
-  }
+.navigationpc li {
+  font-size: 150%;
+  float: left;
+}
+.navigationpc li a {
+  padding: 20px 30px;
 }
 
 nav {
@@ -46,8 +40,31 @@ body {
   padding: 0;
 }
 
-/* @media screen and (max-width: 480px) {
-  .navigationmobile {
+@media screen and (min-width: 481px) {
+  .navigationpc {
     display: block;
   }
-} */
+  img {
+    width: 7em;
+  }
+  h1 {
+    font-size: 350%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .navigationmobile {
+    display: block;
+  } */
+  img {
+    width: 5em;
+    margin-right: 10px;
+  }
+  h1 {
+    font-size: 150%;
+    margin-top: 17px;
+  }
+  h2 {
+    font-size: 100%;
+  }
+}
