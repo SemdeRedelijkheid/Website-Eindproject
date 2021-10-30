@@ -1,11 +1,33 @@
 img {
-  width: 5%;
+  width: 9%;
   float: left;
   margin-right: 30px;
 }
 
-.layerone {
-  background: rgb(255, 0, 0);
+h1 {
+  font-size: 350%;
+  margin: 0;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#banner {
+  background: rgb(129, 129, 129);
+  padding: 1em;
+}
+
+.navigationpc {
+  background: rgb(187, 187, 187);
   padding: 1em;
 }
 
