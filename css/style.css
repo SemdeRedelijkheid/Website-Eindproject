@@ -13,7 +13,6 @@ header {
 }
 
 img {
-  display: block;
   float: left;
   margin-right: 20px;
   width: 3.5%;
@@ -36,7 +35,6 @@ h2 {
 
 .banner {
   background: rgb(129, 129, 129);
-  display: block;
 }
 
 .hamburger {
@@ -46,7 +44,6 @@ h2 {
 .navigation {
   background: rgb(187, 187, 187);
   width: 100%;
-  display: block;
 }
 
 .menu {
@@ -59,7 +56,7 @@ h2 {
 
 .menu li {
   list-style: none;
-  display: inline-block;
+  display: inline;
   line-height: 50px;
   justify-content: space-between;
   text-align: center;
@@ -77,8 +74,12 @@ body {
   background-color: rgb(255, 0, 0);
 }
 
-main {
+.articles {
   display: flex;
+  background: rgb(0, 255, 0);
+}
+
+.section1 {
 }
 
 @media screen and (max-width: 1179px) {
