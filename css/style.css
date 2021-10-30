@@ -71,26 +71,37 @@ h2 {
 
 body {
   height: 100%;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 .articles {
   display: flex;
+  flex-direction: column;
 }
 
 .articles #articleone {
   background: rgb(0, 255, 0);
-  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .articles #articletwo {
   background: rgb(4, 0, 255);
-  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .articles #articlethree {
   background: rgb(0, 255, 234);
-  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+p {
+  font-size: 1.2em;
 }
 
 @media screen and (max-width: 1179px) {
