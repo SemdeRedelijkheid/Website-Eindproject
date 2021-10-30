@@ -1,7 +1,12 @@
 header {
   width: 100vw;
+  height: fit-content;
+  display: inline-block;
+  background-color: rgb(255, 0, 0);
 }
+
 img {
+  display: block;
   float: left;
   margin-right: 20px;
   width: 7%;
@@ -12,6 +17,7 @@ img {
 
 h1 {
   margin: 0;
+  width: 100%;
   margin-top: 10px;
   color: rgb(255, 255, 255);
 }
@@ -19,11 +25,13 @@ h1 {
 h2 {
   color: rgb(255, 255, 255);
   margin: 0;
+  height: 100%;
 }
 
 .banner {
   background: rgb(129, 129, 129);
   height: 15vh;
+  display: block;
 }
 
 .hamburger {
@@ -33,15 +41,28 @@ h2 {
 .navigation {
   background: rgb(187, 187, 187);
   width: 100%;
-  text-align: center;
+  margin: 0;
+}
+
+.menu {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
-.navigation li {
+
+.menu li {
+  text-align: center;
   font-size: 150%;
-  display: inline-block;
+  display: block;
+  margin: 0;
+  width: 100%;
 }
-.navigation li a {
-  padding: 100px;
+
+.menu li a {
+  text-decoration: none;
 }
 
 body {
@@ -49,6 +70,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 main {
   display: flex;
 }
