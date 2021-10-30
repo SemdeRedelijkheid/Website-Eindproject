@@ -4,6 +4,17 @@ img {
   margin-right: 30px;
 }
 
+.layerone {
+  background: rgb(255, 0, 0);
+  padding: 1em;
+}
+
+@media screen and (min-width: 481px) {
+  .navigationpc {
+    display: block;
+  }
+}
+
 nav {
   display: none;
 }
@@ -13,82 +24,8 @@ body {
   padding: 0;
 }
 
-#menuToggle {
-  display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
-
-  z-index: 1;
-
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle a {
-  text-decoration: none;
-  color: #232323;
-
-  transition: color 0.3s ease;
-}
-
-#menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-
-  cursor: pointer;
-
-  opacity: 0;
-  z-index: 2;
-
-  -webkit-touch-callout: none;
-}
-
-#menuToggle span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-
-  background: #ff0000;
-  border-radius: 3px;
-
-  z-index: 1;
-}
-
-#menu {
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-
-  background: #b4b4b4;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-#menuToggle input:checked ~ ul {
-  transform: none;
-}
-
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .navigationmobile {
     display: block;
   }
-}
+} */
