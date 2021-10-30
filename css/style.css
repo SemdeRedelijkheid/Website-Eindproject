@@ -9,34 +9,33 @@
 }
 
 header {
-  width: 100vw;
-  height: fit-content;
-  display: inline-block;
+  width: 100%;
 }
 
 img {
   display: block;
   float: left;
   margin-right: 20px;
-  width: 7%;
+  width: 3.5%;
 }
+
 .video {
   width: 100%;
 }
 
 h1 {
+  font-size: 300%;
   width: 100%;
   color: rgb(255, 255, 255);
 }
 
 h2 {
+  font-size: 200%;
   color: rgb(255, 255, 255);
-  height: 100%;
 }
 
 .banner {
   background: rgb(129, 129, 129);
-  height: 15vh;
   display: block;
 }
 
@@ -47,6 +46,7 @@ h2 {
 .navigation {
   background: rgb(187, 187, 187);
   width: 100%;
+  display: block;
 }
 
 .menu {
