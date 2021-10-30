@@ -12,10 +12,10 @@ header {
   width: 100%;
 }
 
-img {
+.ghostimage {
   float: left;
   margin-right: 20px;
-  width: 3.5%;
+  width: 5.5em;
 }
 
 .video {
@@ -23,12 +23,14 @@ img {
 }
 
 h1 {
+  text-align: center;
   font-size: 300%;
   width: 100%;
   color: rgb(255, 255, 255);
 }
 
 h2 {
+  text-align: center;
   font-size: 200%;
   color: rgb(255, 255, 255);
 }
@@ -79,22 +81,30 @@ body {
   flex-direction: column;
 }
 
-.articles #articleone {
+#articleone {
   background: rgb(0, 255, 0);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30%;
 }
 
-.articles #articletwo {
+#articletwo {
   background: rgb(4, 0, 255);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30%;
 }
 
-.articles #articlethree {
+#articlethree {
   background: rgb(0, 255, 234);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30%;
+}
+
+.ghost {
+  width: 5.5em;
+  float: right;
 }
 
 h3 {
