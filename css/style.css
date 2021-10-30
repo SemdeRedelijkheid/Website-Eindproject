@@ -1,5 +1,7 @@
 img {
   width: 5%;
+  float: left;
+  margin-right: 30px;
 }
 
 nav {
