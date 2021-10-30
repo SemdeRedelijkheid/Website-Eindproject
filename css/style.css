@@ -26,26 +26,31 @@ h2 {
   height: 15vh;
 }
 
+.hamburger {
+  display: none;
+}
+
 .navigation {
   background: rgb(187, 187, 187);
-  position: fixed;
+  width: 100%;
+  text-align: center;
+  display: flex;
 }
 .navigation li {
   font-size: 150%;
-  float: left;
+  display: inline-block;
 }
 .navigation li a {
-  padding: 20px 30px;
-}
-
-nav {
-  display: none;
+  padding: 100px;
 }
 
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+main {
+  display: flex;
 }
 
 @media screen and (max-width: 1179px) {
