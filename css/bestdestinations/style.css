@@ -101,3 +101,66 @@ body {
   opacity: 0.5;
   padding: 10px;
 }
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-areas:
+    "articletwo articleone articlethree"
+    "articletwo articleone articlethree"
+    "articlefive articleone articlethree"
+    "articlefive articleone articlefour"
+    "articlefive articleone articlefour"
+    "articlefive articleone articlefour"
+    "articlefive articlesix articlesix"
+    "productone producttwo productthree"
+    "productone producttwo productthree";
+  grid-gap: 5px;
+}
+#solarpanels {
+  grid-area: solarpanels;
+}
+#chargecontroller {
+  grid-area: chargecontroller;
+}
+#battery {
+  grid-area: battery;
+}
+#dcpower {
+  grid-area: dcpower;
+}
+#inverter {
+  grid-area: inverter;
+}
+#acpower {
+  grid-area: acpower;
+}
+#asidesolar1 {
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: asidesolar1;
+}
+#product1solar {
+  text-align: center;
+}
+#asidesolar2 {
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: asidesolar2;
+}
+#product2solar {
+  text-align: center;
+}
+#asidesolar3 {
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: asidesolar3;
+}
+#product3solar {
+  text-align: center;
+}
+.imgsolarworks {
+  height: 200px;
+  width: auto;
+  margin: 5%;
+}
