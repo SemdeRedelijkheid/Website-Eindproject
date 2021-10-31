@@ -77,7 +77,7 @@ h2 {
   font-size: 150%;
   display: block;
   background-color: rgb(165, 165, 165);
-  border: rgb(255, 0, 0);
+  border: rgb(129, 129, 129);
   border-style: solid;
 }
 
@@ -92,28 +92,28 @@ body {
 }
 
 #articleone {
-  background: rgb(0, 255, 0);
+  background: rgb(129, 129, 129);
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 30%;
 }
 
 #articletwo {
-  background: rgb(4, 0, 255);
+  background: rgb(129, 129, 129);
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 30%;
 }
 
 #articlethree {
-  background: rgb(0, 255, 234);
+  background: rgb(129, 129, 129);
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 30%;
 }
 
-.ghost {
-  width: 9em;
+.articleimage {
+  width: 16em;
   float: right;
 }
 
@@ -122,7 +122,7 @@ h3 {
 }
 p {
   font-size: 1.2em;
-  margin-right: 15%;
+  margin-right: 30%;
 }
 .moreinfo {
   margin-top: 10px;
@@ -136,11 +136,11 @@ p {
   justify-content: space-between;
 }
 #copyright {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px;
 }
 #cookies {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #fff;
   background: #fa0;
   opacity: 0.5;
