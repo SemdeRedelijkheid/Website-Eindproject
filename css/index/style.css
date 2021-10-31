@@ -86,7 +86,7 @@ body {
   background-color: rgb(165, 165, 165);
 }
 
-.articlesandaside {
+.section {
   display: flex;
   flex-direction: column;
 }
@@ -169,7 +169,26 @@ aside {
   right: 0%;
 }
 
-@media only screen and (max-width: 1279px) and (min-width: 481px) {
+@media only screen and (max-width: 1279px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  video {
+    order: 1;
+  }
+  aside {
+    position: initial;
+    order: 2;
+  }
+  .articleimage {
+    float: left;
+  }
 }
 @media only screen and (max-width: 480px) {
+  video {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
 }
