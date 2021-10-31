@@ -80,3 +80,94 @@ body {
   height: 100%;
   background-color: rgb(165, 165, 165);
 }
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  grid-template-areas:
+    "form form aside1"
+    "form form aside1"
+    "form form aside2"
+    "form form aside2"
+    "form form aside3"
+    "form form aside3";
+}
+.fieldsetcontact {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 4px;
+}
+.name {
+  height: 2em;
+  margin: 2%;
+  border-style: solid;
+  border-width: 4px;
+}
+.email {
+  height: 2em;
+  margin: 2%;
+  border-style: solid;
+  border-width: 4px;
+}
+.message {
+  width: 90%;
+  height: 20em;
+  margin: 2%;
+  border-style: solid;
+  border-width: 4px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  grid-area: form;
+}
+.figurefoto {
+  text-align: center;
+}
+.aside1 {
+  width: 400px;
+  height: auto;
+  grid-area: aside1;
+}
+.aside2 {
+  width: 400px;
+  height: auto;
+  grid-area: aside2;
+}
+.aside3 {
+  width: 400px;
+  height: auto;
+  grid-area: aside3;
+}
+.productimage {
+  float: right;
+  height: auto;
+  width: 80%;
+  margin: 5%;
+}
+h3 {
+  margin-top: 15px;
+}
+
+.footer {
+  background: rgb(129, 129, 129);
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#copyright {
+  font-size: 1em;
+  padding: 10px;
+}
+
+#cookies {
+  position: fixed;
+  top: 96%;
+  right: 0%;
+  font-size: 1em;
+  color: #fff;
+  background: #fa0;
+  opacity: 0.5;
+  padding: 10px;
+}
