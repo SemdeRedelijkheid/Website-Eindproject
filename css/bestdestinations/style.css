@@ -103,37 +103,40 @@ h3 {
   grid-gap: 5px;
 }
 .articleone {
-  margin: 5px;
+  padding: 5px;
+  margin-top: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articleone;
 }
 .articletwo {
-  margin: 5px;
+  padding: 5px;
+  margin-top: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articletwo;
 }
 .articlethree {
-  margin: 5px;
+  padding: 5px;
+  margin-top: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articlethree;
 }
 .articlefour {
-  margin: 5px;
+  padding: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articlefour;
 }
 .articlefive {
-  margin: 5px;
+  padding: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articlefive;
 }
 .articlesix {
-  margin: 5px;
+  padding: 5px;
   background: rgb(129, 129, 129);
   font-size: 150%;
   grid-area: articlesix;
