@@ -225,28 +225,29 @@ h3 {
       "footer footer"
       "footer footer";
     grid-gap: 5px;
-    }
-  .articleone{
-    align-self:initial;
   }
-  .articletwo{
-    align-self: end;
-  }
-  .articlethree{
-    align-self: center;
-  }
-  .articlefour{
-    display: none;
-  }
-  .articlefive{
-    align-self: center;
-  }
-  .articlesix{
+  .articleone {
     align-self: initial;
   }
-  .productthree{
+  .articletwo {
+    align-self: end;
+  }
+  .articlethree {
+    align-self: center;
+  }
+  .articlefour {
     display: none;
   }
+  .articlefive {
+    align-self: center;
+  }
+  .articlesix {
+    align-self: initial;
+  }
+  .productthree {
+    display: none;
+  }
+}
 @media only screen and (max-width: 480px) {
   .gridcontainer {
     display: grid;
@@ -270,26 +271,33 @@ h3 {
       "footer footer"
       "footer footer";
     grid-gap: 5px;
-    }
-  .articleone{
+  }
+  .articleone {
     align-self: center;
   }
-  .articletwo{
+  .articletwo {
     align-self: center;
   }
-  .articlethree{
+  .articlethree {
     align-self: center;
   }
-  .articlefour{
+  .articlefour {
     display: none;
   }
-  .articlefive{
+  .articlefive {
     align-self: center;
   }
-  .articlesix{
+  .articlesix {
     display: none;
   }
-  .productthree{
+  .productone {
+    margin-left: 0;
+  }
+  .producttwo {
+    margin-left: 0;
+  }
+  .productthree {
+    margin-left: 0;
     display: initial;
   }
 }
