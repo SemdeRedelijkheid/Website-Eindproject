@@ -86,7 +86,7 @@ body {
   background-color: rgb(165, 165, 165);
 }
 
-.articles {
+.articlesandaside {
   display: flex;
   flex-direction: column;
 }
@@ -120,14 +120,17 @@ body {
 h3 {
   font-size: 1.7em;
 }
+
 p {
   font-size: 1.2em;
   margin-right: 30%;
 }
+
 .moreinfo {
   margin-top: 10px;
   font-size: 1.4em;
 }
+
 .footer {
   background: rgb(129, 129, 129);
   display: flex;
@@ -135,16 +138,27 @@ p {
   padding: 20px;
   justify-content: space-between;
 }
+
 #copyright {
   font-size: 1em;
   padding: 10px;
 }
+
 #cookies {
   font-size: 1em;
   color: #fff;
   background: #fa0;
   opacity: 0.5;
   padding: 10px;
+}
+aside {
+  font-size: 120%;
+  color: #fff;
+  background: rgb(0, 0, 0);
+  padding: 25px;
+  position: fixed;
+  top: 35%;
+  right: 0%;
 }
 
 @media screen and (max-width: 1179px) {
