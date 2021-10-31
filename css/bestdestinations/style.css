@@ -86,8 +86,9 @@ h3 {
 }
 
 .gridcontainer {
+  margin: 5px;
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 33% 33% 33%;
   grid-template-areas:
     "articletwo articleone articlethree"
     "articletwo articleone articlethree"
@@ -123,7 +124,7 @@ h3 {
 .productone {
   margin-left: auto;
   margin-right: auto;
-  grid-area: asidesolar1;
+  grid-area: productone;
 }
 .productpone {
   text-align: center;
@@ -131,7 +132,7 @@ h3 {
 .producttwo {
   margin-left: auto;
   margin-right: auto;
-  grid-area: asidesolar2;
+  grid-area: producttwo;
 }
 .productptwo {
   text-align: center;
@@ -139,15 +140,15 @@ h3 {
 .productthree {
   margin-left: auto;
   margin-right: auto;
-  grid-area: asidesolar3;
+  grid-area: productthree;
 }
 .productpthree {
   text-align: center;
 }
 .productimage {
-  height: 200px;
+  height: 150px;
   width: auto;
-  margin: 5%;
+  margin: 0;
 }
 
 .footer {

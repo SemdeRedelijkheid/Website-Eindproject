@@ -91,6 +91,10 @@ body {
   flex-direction: column;
 }
 
+article {
+  margin: 5px;
+}
+
 #articleone {
   background: rgb(129, 129, 129);
   margin-top: 10px;
