@@ -170,30 +170,10 @@ aside {
 }
 
 @media screen and (max-width: 1179px) {
-  .navigation {
-    display: block;
-  }
-  img {
-    width: 7em;
-  }
-  h1 {
-    font-size: 350%;
-  }
 }
 
 @media screen and (max-width: 480px) {
   /* .navigationmobile {
     display: block;
   } */
-  img {
-    width: 5em;
-    margin-right: 10px;
-  }
-  h1 {
-    font-size: 150%;
-    margin-top: 17px;
-  }
-  h2 {
-    font-size: 100%;
-  }
 }

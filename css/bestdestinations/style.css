@@ -87,7 +87,7 @@ h3 {
 
 .gridcontainer {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.2% 33.2% 33.2%;
   grid-template-areas:
     "articletwo articleone articlethree"
     "articletwo articleone articlethree"
@@ -178,6 +178,7 @@ h3 {
   padding: 20px;
   justify-content: space-between;
   grid-area: footer;
+  margin-top: 250px;
 }
 
 #copyright {
