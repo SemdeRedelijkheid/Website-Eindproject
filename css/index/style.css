@@ -169,11 +169,7 @@ aside {
   right: 0%;
 }
 
-@media screen and (max-width: 1179px) {
+@media only screen and (max-width: 1279px) and (min-width: 481px) {
 }
-
-@media screen and (max-width: 480px) {
-  /* .navigationmobile {
-    display: block;
-  } */
+@media only screen and (max-width: 480px) {
 }
