@@ -87,7 +87,7 @@ h3 {
 
 .gridcontainer {
   display: grid;
-  grid-template-columns: 33.2% 33.2% 33.2%;
+  grid-template-columns: auto auto auto;
   grid-template-areas:
     "articletwo articleone articlethree"
     "articletwo articleone articlethree"
