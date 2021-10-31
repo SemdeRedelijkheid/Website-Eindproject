@@ -186,6 +186,9 @@ h3 {
 }
 
 #cookies {
+  position: fixed;
+  top: 96%;
+  right: 0%;
   font-size: 1em;
   color: #fff;
   background: #fa0;

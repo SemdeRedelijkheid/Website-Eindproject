@@ -149,12 +149,16 @@ p {
 }
 
 #cookies {
+  position: fixed;
+  top: 96%;
+  right: 0%;
   font-size: 1em;
   color: #fff;
   background: #fa0;
   opacity: 0.5;
   padding: 10px;
 }
+
 aside {
   font-size: 120%;
   color: #fff;
