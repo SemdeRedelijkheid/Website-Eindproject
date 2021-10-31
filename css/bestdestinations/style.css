@@ -81,25 +81,8 @@ body {
   background-color: rgb(165, 165, 165);
 }
 
-.footer {
-  background: rgb(129, 129, 129);
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  justify-content: space-between;
-}
-
-#copyright {
-  font-size: 1em;
-  padding: 10px;
-}
-
-#cookies {
-  font-size: 1em;
-  color: #fff;
-  background: #fa0;
-  opacity: 0.5;
-  padding: 10px;
+h3 {
+  font-size: 30px;
 }
 
 .gridcontainer {
@@ -114,53 +97,77 @@ body {
     "articlefive articleone articlefour"
     "articlefive articlesix articlesix"
     "productone producttwo productthree"
-    "productone producttwo productthree";
+    "productone producttwo productthree"
+    "footer footer footer"
+    "footer footer footer";
   grid-gap: 5px;
 }
-#solarpanels {
-  grid-area: solarpanels;
+.articleone {
+  grid-area: articleone;
 }
-#chargecontroller {
-  grid-area: chargecontroller;
+.articletwo {
+  grid-area: articletwo;
 }
-#battery {
-  grid-area: battery;
+.articlethree {
+  grid-area: articlethree;
 }
-#dcpower {
-  grid-area: dcpower;
+.articlefour {
+  grid-area: articlefour;
 }
-#inverter {
-  grid-area: inverter;
+.articlefive {
+  grid-area: articlefive;
 }
-#acpower {
-  grid-area: acpower;
+.articlesix {
+  grid-area: articlesix;
 }
-#asidesolar1 {
+.productone {
   margin-left: auto;
   margin-right: auto;
   grid-area: asidesolar1;
 }
-#product1solar {
+.productpone {
   text-align: center;
 }
-#asidesolar2 {
+.producttwo {
   margin-left: auto;
   margin-right: auto;
   grid-area: asidesolar2;
 }
-#product2solar {
+.productptwo {
   text-align: center;
 }
-#asidesolar3 {
+.productthree {
   margin-left: auto;
   margin-right: auto;
   grid-area: asidesolar3;
 }
-#product3solar {
+.productpthree {
   text-align: center;
 }
-.imgsolarworks {
+.productimage {
   height: 200px;
   width: auto;
   margin: 5%;
+}
+
+.footer {
+  background: rgb(129, 129, 129);
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  grid-area: footer;
+}
+
+#copyright {
+  font-size: 1em;
+  padding: 10px;
+}
+
+#cookies {
+  font-size: 1em;
+  color: #fff;
+  background: #fa0;
+  opacity: 0.5;
+  padding: 10px;
 }
